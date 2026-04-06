@@ -60,7 +60,7 @@ Developed comprehensive policy package including Incident Response, Access Contr
 - Team Leadership
 
 ## 📜 Certifications
-- 🎯 CompTIA Security+ (In Progress - Summer 2026)
+- 🎯 ISC2 Cybersecurity Certificate (In Progress - Summer 2026)
 - 📚 CodePath Intro to Cybersecurity (Honors, Summer 2025)
 - 📚 CodePath Intermediate Cybersecurity (Honors, Fall 2025)
 
@@ -74,7 +74,6 @@ Seeking **GRC Consultant** role at Big 4 or boutique consulting firm where I can
 ## 📫 Connect With Me
 - 💼 LinkedIn: [(https://www.linkedin.com/in/chisom-onyia/)]
 - 📧 Email: [conyi003@fiu.edu]
-- 🌐 Portfolio: [If you have website]
 
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chichi2809&show_icons=true&theme=radical)
