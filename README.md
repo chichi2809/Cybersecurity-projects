@@ -1,76 +1,13 @@
-# Hi, I'm Chisom! 👋
+# Hi, I'm Chisom and this is my Cybersecurity Portfolio 👋
+This repository is  created to contain some hands on projects and labs I have been working on. Included here are full documentations and inner workings of my progress as I gradually work towards completing of these projects.
 
-## 🎓 About Me
-- Computer Engineering Student at Florida International University (Graduating May 2027)
-- Concentrations: Cybersecurity & Engineering Management
-- Aspiring GRC Consultant focused on risk assessment and compliance
-- Passionate about helping organizations build strong security programs
+My projects are designed to align with my career goal of working in the Governance, Risk, and Compliace sector. As such, my projects tie into risk analysis, SOC analysis, and threat intelligence as well as practice of proper documentation.
+ investments.
 
-## 🔐 Cybersecurity Focus Areas
-- Governance, Risk, and Compliance (GRC)
-- Risk Assessment & Management
-- Security Frameworks (NIST CSF, ISO 27001)
-- Policy Development & Compliance
-- Network Security & Forensics
+# Portfolio Focus
+-
 
-## 💼 Featured Projects
+# PROJECTS
+- NIST CSF 2.0 GAP ASSESSMENT
+- SOC + GRC HYBRID INCIDENT INVESTIGATION
 
-### [NIST Cybersecurity Framework Gap Assessment]
-Comprehensive security maturity assessment of healthcare SaaS company against NIST CSF 2.0, identifying 45+ control gaps and developing prioritized 18-month remediation roadmap with cost estimates and risk reduction analysis.
-
-**Skills:** Risk Assessment, NIST CSF, Gap Analysis, Compliance, Remediation Planning
-
----
-
-### [Data Exfiltration Risk Analysis & Controls Design]
-Led 5-person team analyzing data exfiltration threats and designing three-layer security architecture achieving 90-95% risk reduction. Created ROI analysis and executive presentation demonstrating business value of security investments.
-
-**Skills:** Risk Analysis, Security Architecture, ROI Analysis, Stakeholder Communication
-
----
-
-### [Enterprise Security Policy Framework]
-Developed comprehensive policy package including Incident Response, Access Control, Data Classification, and 5 additional policies aligned with NIST 800-53 and ISO 27001. Created implementation guides and compliance mapping.
-
-**Skills:** Policy Development, Compliance Frameworks, Documentation, Security Governance
-
----
-
-## 🛠️ Technical Skills
-
-**Frameworks & Standards:**
-- NIST Cybersecurity Framework 2.0
-- ISO 27001/27002
-- NIST 800-53
-- HIPAA Security Rule
-- PCI-DSS
-
-**Tools & Technologies:**
-- Security Analysis: Wireshark, Nmap, Splunk
-- Cloud: AWS (EC2, S3, IAM)
-- Programming: Python, JavaScript
-- Documentation: Microsoft Office, Markdown, Git
-- Risk Management: Risk registers, control mapping
-
-**Soft Skills:**
-- Risk Assessment & Analysis
-- Technical Writing & Documentation  
-- Stakeholder Communication
-- Project Management
-- Team Leadership
-
-## 📜 Certifications
-- 🎯 ISC2 Cybersecurity Certificate (In Progress - Summer 2026)
-- 📚 CodePath Intro to Cybersecurity (Honors, Summer 2025)
-- 📚 CodePath Intermediate Cybersecurity (Honors, Fall 2025)
-
-## 🎯 Career Goals
-Seeking **GRC Consultant** role at Big 4 or boutique consulting firm where I can:
-- Help organizations assess and manage cybersecurity risks
-- Implement security frameworks and compliance programs
-- Bridge the gap between technical security and business objectives
-- Travel to client sites and work with diverse industries
-
-## 📫 Connect With Me
-- 💼 LinkedIn: [(https://www.linkedin.com/in/chisom-onyia/)]
-- 📧 Email: [conyi003@fiu.edu]
