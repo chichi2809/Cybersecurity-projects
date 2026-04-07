@@ -1,1 +1,235 @@
+# NIST CSF 2.0 Assessment Matrix
 
+**HealthBridge Solutions Security Maturity Assessment**
+
+**Last Updated:** January 2026  
+**Assessor:** Chisom Onyia
+
+---
+
+## Assessment Overview
+
+This document contains the detailed assessment of HealthBridge Solutions against all 23 NIST Cybersecurity Framework 2.0 categories across 6 functions.
+
+**Assessment Methodology:**
+- Document review and analysis
+- Stakeholder interviews
+- Technical validation
+- Evidence collection
+- Maturity tier rating (0-4 scale)
+
+**Maturity Tier Definitions:**
+- **Tier 0:** Non-existent - Control does not exist
+- **Tier 1:** Partial - Ad-hoc, reactive implementation
+- **Tier 2:** Risk Informed - Risk-aware processes, inconsistent application
+- **Tier 3:** Repeatable - Formal processes, consistently applied
+- **Tier 4:** Adaptive - Continuous improvement, proactive optimization
+
+---
+
+## Assessment Summary
+
+**Progress:** 6/23 categories completed (GOVERN function)
+
+| Function | Categories | Completed | Average Current Tier | Average Target Tier |
+|----------|-----------|-----------|---------------------|---------------------|
+| GOVERN | 6 | 6/6 | 0.5 | 3.0 |
+| IDENTIFY | 3 | 0/3 | - | - |
+| PROTECT | 5 | 0/5 | - | - |
+| DETECT | 2 | 0/2 | - | - |
+| RESPOND | 4 | 0/4 | - | - |
+| RECOVER | 2 | 0/2 | - | - |
+| **TOTAL** | **22** | **6/22** | **TBD** | **~3.0** |
+
+---
+
+# FUNCTION 1: GOVERN (GV)
+
+## GV.PO - Policy
+
+**Category:** Organizational cybersecurity policy is established, communicated, and enforced
+
+### Current State (Tier 0 - Non-existent)
+
+HealthBridge has no formal cybersecurity policies documented. Only a basic acceptable use policy exists for employees (2 pages, last updated 2019). 
+
+**Current Documentation:**
+- Basic acceptable use policy (outdated 2019)
+- No information security policy
+- No incident response policy
+- No access control policy
+- No data classification policy
+- No vendor management policy
+- No change management policy
+
+**Process Gaps:**
+- No policy development process
+- No policy approval workflow
+- No policy communication program
+- No policy review schedule
+- No policy exception process
+- No policy compliance measurement
+
+### Evidence Collected
+
+**Documentation Review:**
+- Reviewed shared drive - found only acceptable use policy
+- No policy repository or document management system
+- No version control for policies
+
+**Interviews:**
+- IT Security Manager confirmed no formal policies (Interview: Jan 15, 2026)
+- Policies discussed but never formalized or approved
+- Ad-hoc email communications substitute for formal policies
+
+**Company Profile:**
+- Explicitly states: "No formal security policies documented"
+
+### Tier Assessment
+
+**Current Tier:** 0 (Non-existent)
+
+**Justification:**
+- No formal security policy framework exists
+- Single outdated acceptable use policy insufficient
+- Does not meet even Tier 1 criteria (ad-hoc implementation)
+- Critical foundational control missing
+
+**Target Tier:** 3 (Repeatable)
+
+**Rationale:**
+- Required for SOC 2 certification (Trust Services Criteria CC1.2, CC1.3)
+- HIPAA Security Rule mandates documented policies (164.316(a))
+- Industry standard for healthcare organizations
+- Foundational for all other security controls
+
+### Gap Analysis
+
+**Gaps Identified:**
+
+1. **No master information security policy** establishing governance framework
+2. **No policy development and approval process** defined
+3. **No comprehensive security policy framework** covering required domains
+4. **No policy version control** or document management
+5. **No formal policy communication and training program**
+6. **No annual review and update process**
+7. **No policy exception request and approval process**
+8. **No measurement of policy compliance**
+9. **Missing SOC 2 requirement:** Trust Services Criteria CC1.2, CC1.3
+10. **Missing HIPAA requirement:** Security Rule 164.316(a) - policies and procedures
+
+**Specific Policies Needed:**
+- Information Security Policy (master document)
+- Incident Response Policy
+- Access Control Policy
+- Data Classification and Handling Policy
+- Acceptable Use Policy (updated version)
+- Change Management Policy
+- Vendor Management Policy
+- Remote Access Policy
+- Password and Authentication Policy
+- Data Retention and Disposal Policy
+- Business Continuity Policy
+- Disaster Recovery Policy
+
+### Priority
+
+**Priority Level:** CRITICAL
+
+**Justification:**
+- **SOC 2 Blocker:** Cannot achieve certification without formal security policies
+- **HIPAA Compliance Gap:** Required by Security Rule
+- **$500K Revenue Impact:** Hospital contract requires SOC 2
+- **Board Oversight:** Cannot govern without policy framework
+- **Foundational Control:** Other controls reference and depend on policies
+- **Regulatory Risk:** Increases potential fines in breach event
+- **Audit Finding:** Will be major finding in any compliance audit
+
+### Business Impact & Remediation
+
+**Business Impact:**
+- **Revenue:** $500K annual contract blocked (SOC 2 requirement)
+- **Compliance:** HIPAA violation risk, potential OCR penalties up to $1.5M
+- **Operations:** No clear standards for employee security behavior
+- **Risk:** Increased likelihood and impact of security incidents
+- **Reputation:** Cannot demonstrate security commitment to prospects
+
+**Remediation Plan:**
+
+**Phase 1 (Months 0-3): Develop Core Policy Set**
+- Develop 10-12 core security policies
+- Establish policy governance framework
+- Define approval workflow
+- **Resources:**
+  - External consultant: $25,000 OR
+  - Internal effort: 200 hours (IT Security Manager + Legal + Compliance)
+  - Policy template licenses: $2,000
+  - Policy management platform: $5,000/year
+- **Owner:** IT Security Manager (lead), Legal (review), CEO (approval)
+
+**Phase 2 (Months 3-6): Implement Policy Governance**
+- Communicate policies organization-wide
+- Conduct policy awareness training
+- Implement policy acknowledgment system
+- Establish annual review schedule
+- **Resources:**
+  - Policy training program: $10,000
+  - Policy acknowledgment system: $3,000
+  - Ongoing maintenance: 5 hours/month
+- **Owner:** IT Security Manager
+
+**Total Investment:** 
+- **Cost:** $45,000
+- **Time:** 225 hours
+- **Duration:** 6 months
+
+**Expected Outcome:**
+- Achieve Tier 3 maturity for Policy category
+- Enable SOC 2 Type II certification path
+- Meet HIPAA Security Rule requirements
+- Establish foundation for all other security controls
+- Reduce regulatory risk exposure
+
+---
+
+## GV.RM - Risk Management Strategy
+
+**Category:** Organizational priorities, constraints, risk tolerance, and assumptions are established and used to support risk decisions
+
+### Current State (Tier 0-1)
+
+[TEMPLATE - YOU WILL FILL THIS IN]
+
+HealthBridge has no formal risk management strategy or framework documented. Risk assessment is performed ad-hoc when security issues arise.
+
+**Current Approach:**
+- Last HIPAA Security Risk Assessment: Over 2 years ago (outdated)
+- No enterprise risk management (ERM) program
+- No risk appetite statement
+- No risk tolerance levels defined
+- No formal risk assessment methodology
+- Security decisions made reactively without risk framework
+
+[Continue with Evidence, Tier Assessment, Gap Analysis, Priority, Business Impact sections...]
+
+---
+
+## GV.SC - Cybersecurity Supply Chain Risk Management
+
+**Category:** Supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders
+
+### Current State (Tier 0)
+
+[TEMPLATE - YOU WILL FILL THIS IN]
+
+HealthBridge has no formal third-party vendor risk management program. Critical vendors have access to patient data but are not assessed for security.
+
+**Current Approach:**
+- No vendor security assessments performed
+- No vendor due diligence process
+- Contracts lack security requirements
+- Critical vendors (Stripe, Twilio, Auth0, etc.) not evaluated
+
+---
+
+[Continue this pattern for all 23 categories]
