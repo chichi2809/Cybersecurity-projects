@@ -194,11 +194,9 @@ HealthBridge has no formal cybersecurity policies documented. Only a basic accep
 
 ## GV.RM - Risk Management Strategy
 
-**Category:** Organizational priorities, constraints, risk tolerance, and assumptions are established and used to support risk decisions
+**Category:** Organizational priorities, constraints, risk tolerance and appetite statements, and assumptions are established, communicated, and used to support risk decisions
 
-### Current State (Tier 0-1)
-
-[TEMPLATE - YOU WILL FILL THIS IN]
+### Current State (Tier 0- Non-existent)
 
 HealthBridge has no formal risk management strategy or framework documented. Risk assessment is performed ad-hoc when security issues arise.
 
@@ -210,7 +208,50 @@ HealthBridge has no formal risk management strategy or framework documented. Ris
 - No formal risk assessment methodology
 - Security decisions made reactively without risk framework
 
-[Continue with Evidence, Tier Assessment, Gap Analysis, Priority, Business Impact sections...]
+### Evidence Collected
+
+** Document Reviewed **
+- No risk appetite statement or business continuity plan in place
+- Outdated HIPAA Risk assessment document
+- Ad-hoc communication when security issues arise
+
+** Interviews **
+- IT Security Manager confirmed no formal business continuity plan (Interview: Feb 6, 2026)
+- Security issues discussed and addressed but never through a proper risk assessment methodology
+- Board is requesting risk qualification with no current mechanism to prove it
+
+### Tier Assessment
+
+** Current Tier: ** 0 (Non-existent)
+
+* Justification *
+-  No enterprise risk management (ERM) framework
+-  No formal risk appetite statement
+-  No risk register
+-  No mechanism to provide risk quantification
+-  No updated HIPAA assessment
+
+* Target Tier: ** 3 (Repeatable)
+
+** Rationale **
+- HIPAA Security Rule requires accurate and thorough assessment of risks amd vulnerablities (45 CFR 164.308(a)(1))
+- Industry standard for healthcare organizations
+- Business continuity and disaster recovery plan mandatory and required to be renewed at least annually (NIST Special Publication 800-34)
+
+### Gap Analysis
+
+** Gap Identified **
+1. **No updated HIPAA risk assessment
+2. **No business continuity/ disaster recovery plan
+3. **No risk appetite and risk tolerance statements
+4. **No enterprise risk management framework
+5. **No mechanism for risk quantification
+
+### Priority
+
+** Priority Level: ** Critical
+- 
+
 
 ---
 
@@ -219,8 +260,6 @@ HealthBridge has no formal risk management strategy or framework documented. Ris
 **Category:** Supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders
 
 ### Current State (Tier 0)
-
-[TEMPLATE - YOU WILL FILL THIS IN]
 
 HealthBridge has no formal third-party vendor risk management program. Critical vendors have access to patient data but are not assessed for security.
 
