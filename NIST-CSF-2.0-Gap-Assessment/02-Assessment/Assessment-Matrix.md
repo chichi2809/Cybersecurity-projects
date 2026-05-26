@@ -54,13 +54,14 @@ This document contains the detailed assessment of HealthBridge Solutions against
 HealthBridge has no formal cybersecurity policies documented. Only a basic acceptable use policy exists for employees (2 pages, last updated 2019). 
 
 **Current Documentation:**
-- Basic acceptable use policy (outdated 2019)
-- No information security policy
+- No acceptable use policy
+- No information security policy formally documented
 - No incident response policy
 - No access control policy
-- No data classification policy
+- No data classification/ handling policy
 - No vendor management policy
 - No change management policy
+- Password policy: 12 characters minimum, 90-day rotation
 
 **Process Gaps:**
 - No policy development process
@@ -69,18 +70,9 @@ HealthBridge has no formal cybersecurity policies documented. Only a basic accep
 - No policy review schedule
 - No policy exception process
 - No policy compliance measurement
-
-### Evidence Collected
-
-**Documentation Review:**
-- Reviewed shared drive - found only acceptable use policy
-- No policy repository or document management system
-- No version control for policies
-
-**Interviews:**
-- IT Security Manager confirmed no formal policies (Interview: Jan 15, 2026)
-- Policies discussed but never formalized or approved
-- Ad-hoc email communications substitute for formal policies
+- HIPAA requires formal written policies and procedures
+- SOC 2 trust criteria requires documented policies
+- No SOC 2 certification and OCR compliance is lacking
 
 **Company Profile:**
 - Explicitly states: "No formal security policies documented"
@@ -210,37 +202,37 @@ HealthBridge has no formal risk management strategy or framework documented. Ris
 
 ### Evidence Collected
 
-** Document Reviewed **
+**Document Reviewed**
 - No risk appetite statement or business continuity plan in place
 - Outdated HIPAA Risk assessment document
 - Ad-hoc communication when security issues arise
 
-** Interviews **
+**Interviews**
 - IT Security Manager confirmed no formal business continuity plan (Interview: Feb 6, 2026)
 - Security issues discussed and addressed but never through a proper risk assessment methodology
 - Board is requesting risk qualification with no current mechanism to prove it
 
 ### Tier Assessment
 
-** Current Tier: ** 0 (Non-existent)
+**Current Tier:** 0 (Non-existent)
 
-* Justification *
+**Justification**
 -  No enterprise risk management (ERM) framework
 -  No formal risk appetite statement
 -  No risk register
 -  No mechanism to provide risk quantification
 -  No updated HIPAA assessment
 
-* Target Tier: ** 3 (Repeatable)
+**Target Tier:** 3 (Repeatable)
 
-** Rationale **
+**Rationale**
 - HIPAA Security Rule requires accurate and thorough assessment of risks amd vulnerablities (45 CFR 164.308(a)(1))
 - Industry standard for healthcare organizations
 - Business continuity and disaster recovery plan mandatory and required to be renewed at least annually (NIST Special Publication 800-34)
 
 ### Gap Analysis
 
-** Gap Identified **
+**Gap Identified**
 1. **No updated HIPAA risk assessment
 2. **No business continuity/ disaster recovery plan
 3. **No risk appetite and risk tolerance statements
@@ -249,8 +241,44 @@ HealthBridge has no formal risk management strategy or framework documented. Ris
 
 ### Priority
 
-** Priority Level: ** Critical
-- 
+**Priority Level:** CRITICAL
+
+**Justification:**
+- **OCR audit exposure impact:** up to $1.5M per violation category
+- **Lack of RBDM posture:** Inability to demonstrate risk-based decision making to board or insurers
+- **No risk register and risk tolerance statements:** Lack of formal document to display risk quantification and prioritization process
+
+### Business Impact & Remediation
+
+**Business Impact:**
+- **Revenue:** Annusl renewal cyber insurance increased by 49% (75k to 105k) 
+(Insurer requirement)
+- **Compliance:** potential OCR penalties up to $1.5M,
+- **Operations:** No formal risk prioritization process, No data handling process
+- **Risk:** Longer response time to incidents and insurance premium increase
+- **Reputation:** Inability to show adequate protection to board of directors, and measurable risk reduction to insurers
+
+**Remediation Plan**
+
+**Phase 1: Define Risk management action plan**
+- Conduct full HIPAA Security Risk Assessment immediately
+- Establish enterprise risk register
+- Define company risk tolerance level
+- Create Data Loss Prevention (DLP) solution
+- Create enterprise risk management framework
+
+**Phase 2: Implement Action Plan**
+- Document a formal risk prioritization process
+- Document incident response plan
+- Document company's disaster recovery/ business continuity plan
+- Implement quarterly risk review cadence
+
+**Expected Outcome:**
+- Achieve Tier 3 maturity for Risk manan=gement strategy category
+- Have up-to-date HIPAA security risk assessment
+- Demonstrate security improvement to insurer for lower insurance rate
+- Reassure board of directions about company's adequate protection
+- Establish up-to-date documented incident responce plan and disaster recovery plan through all parts of the company security sectors
 
 
 ---
@@ -271,4 +299,3 @@ HealthBridge has no formal third-party vendor risk management program. Critical 
 
 ---
 
-[Continue this pattern for all 23 categories]
