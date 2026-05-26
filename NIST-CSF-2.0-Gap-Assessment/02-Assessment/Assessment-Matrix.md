@@ -291,11 +291,36 @@ HealthBridge has no formal risk management strategy or framework documented. Ris
 
 HealthBridge has no formal third-party vendor risk management program. Critical vendors have access to patient data but are not assessed for security.
 
-**Current Approach:**
+**Current Documentation:**
 - No vendor security assessments performed
 - No vendor due diligence process
 - Contracts lack security requirements
-- Critical vendors (Stripe, Twilio, Auth0, etc.) not evaluated
+- Critical vendors (Stripe, Twilio, Auth0, etc.) not evaluated but have access to critical information
+- Vendors risk are not discussed before contract signing
 
+**Process Gaps**
+- No vendor management policy
+- No vendor security assessments performed
+- Vendors are not evaluated before given access to PHI or production systems
+- Contracts are not properly reviewed and risks posed by vendors are not taken into extensive consideration
+- No formal documentation for process to conclusion of a partnership or service agreement
+
+## Evidence Collected
+
+**Documentation Review**
+- No vendor management policy found
+- Contracts with vendors do not cover certain security measures such as incident planning, response, and recovery activities
+- Third-party vendors are not assessed before signing contracts
+
+**Company Profile:**
+- Explicitly states: "No third-party vendor assessments"
+
+### Tier Assessment
+
+**Current Tier:** 0 (Non-existent)
+
+**Justification**
+- 
 ---
+
 
