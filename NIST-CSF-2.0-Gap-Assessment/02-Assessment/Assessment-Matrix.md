@@ -289,7 +289,7 @@ HealthBridge has no formal risk management strategy or framework documented. Ris
 
 ### Current State (Tier 0)
 
-HealthBridge has no formal third-party vendor risk management program. Critical vendors have access to patient data but are not assessed for security.
+HealthBridge has no formal third-party vendor risk management program. Critical vendors have access to patient data but are not assessed for security. The third-party vendors identified include stripe, twilio, SendGrid, Auth0, PagerDuty, Datadog, Surescripts, and Quest/LabCorp.
 
 **Current Documentation:**
 - No vendor security assessments performed
@@ -297,12 +297,13 @@ HealthBridge has no formal third-party vendor risk management program. Critical 
 - Contracts lack security requirements
 - Critical vendors (Stripe, Twilio, Auth0, etc.) not evaluated but have access to critical information
 - Vendors risk are not discussed before contract signing
+- BAAs not confirmed for all PHI-handling vendors- potential HIPAA violation
 
 **Process Gaps**
 - No vendor management policy
-- No vendor security assessments performed
+- No vendor security assessments performed or security monitoring process
 - Vendors are not evaluated before given access to PHI or production systems
-- Contracts are not properly reviewed and risks posed by vendors are not taken into extensive consideration
+- Contracts are not properly reviewed and risks posed by vendors are not taken into extensive consideration in a classification system
 - No formal documentation for process to conclusion of a partnership or service agreement
 
 ## Evidence Collected
@@ -320,7 +321,22 @@ HealthBridge has no formal third-party vendor risk management program. Critical 
 **Current Tier:** 0 (Non-existent)
 
 **Justification**
-- 
+- No vendor risk management prograam of any kind
+- About 8 critical vendors with PHI access and zero security assessments represents extreme exposure
+- Missing BAAs for PHI-handling vendors is an active HIPAA violation
+- Third-party breach of vendors like Auth0 or SureScripts could direclty expose up 1.2M patient records
+
+  **Target Tier:** 3 (Repeatable)
+  **Rationale**
+  - HIPAA 164.308(b)(1) requires written BAAs with all Business Associates handling ePHI
+  - SOC 2 CC9.2 rwquires vendor and business partner risk management program
+  - Healthcare supply chain attacks have dramatically increased
+  - A vendor breach without a management program means Healthbridge has no visibility, control, or response capability
+ 
+  ### Gap Analysis
+
+  **Gaps Identified**
+  - No 
 ---
 
 
